@@ -1,0 +1,243 @@
+/* selector universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER para todas las paginas */
+
+.contenedorHeader {
+  background: rgb(0, 0, 0);
+  border: 1px solid black;
+  padding: 1%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.contenedorHeader div {
+  width: 30%;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1%;
+  margin: 1%;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* HOME Pagina */
+
+/* HOME-----> seccion de la imagen del platter y el titulo */
+.homeIntro img {
+  width: 100%;
+  text-align: center;
+}
+
+.homeIntro {
+  background-color: #fdfdc0;
+}
+.homeTitle {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+}
+
+/* HOME-----> seccion de la imagen del platter y story telling */
+.homeStory {
+  background-color: #fdfdc0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeStory img {
+  margin: 0% 0% 3% 11%;
+}
+
+.homeStorytexto {
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.homeStory div {
+  width: 50%;
+}
+
+.homeStory a {
+  color: red;
+}
+
+/* HOME-----> seccion de las cajas */
+.tituloAfuera {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.contenedorDecajas {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedorcajas h3,
+h4,
+p {
+  margin: 1%;
+}
+
+.CAJA {
+  width: 25%;
+  border: 0.01% solid #251f56;
+  border-radius: 1%;
+  margin: 2% 0%;
+  padding: 1%;
+  background: #35cd8c;
+  color: white;
+}
+
+.CAJA:hover {
+  background-color: rgb(286, 225, 33);
+}
+
+.final {
+  background: #fff5ec;
+  padding: 1% 0%;
+}
+
+/* HOME-----> seccion de download app */
+.homeDownload {
+  background-color: #fdfdc0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeDownloadimg {
+  margin: 0% 0% 3% 11%;
+}
+
+.homeDownloadtexto {
+  margin-top: 1%;
+  margin-left: 3%;
+}
+
+.homeDownloadtexto p {
+  text-align: left;
+}
+
+.homeDownload div {
+  width: 50%;
+}
+
+/* ABOUT Pagina */
+
+/* ABOUT-----> seccion de la imagen del tomate y el titulo */
+
+.aboutTitle {
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+
+.aboutIntro div {
+  color: white;
+}
+
+.aboutTomate {
+  background-color: #fdfdc0;
+}
+
+/* ABOUT-----> seccion de la imagen del parrafo e imagen*/
+
+.aboutParrafo {
+  background-color: #fdfdc0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutTomate img {
+  height: 750px;
+  object-fit: cover;
+}
+
+.aboutParrafo img {
+  margin: 0% 0% 3% 11%;
+}
+
+.aboutTexto {
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.aboutParrafo div {
+  width: 50%;
+}
+
+/* CONTACT */
+
+.contactBody {
+  display: flex;
+  justify-content: center;
+}
+
+#contactImg {
+  margin: 5%;
+}
+
+/* FOOTER para todas las paginas */
+.informacionContacto {
+  background-color: #fff5ec;
+  padding: 2% 1% 5% 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.informacionContacto h3 {
+  color: red;
+}
+
+.informacionContacto p {
+  color: grey;
+}
+
+.informacionContacto aside {
+  width: 33%;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 1%;
+  color: grey;
+}
+
+.derechosReservados {
+  background-color: #fe043c;
+  color: white;
+  text-align: center;
+  padding: 2% 0%;
+}
+
+/* MEDIA QUERIES */
+/* @media tipo de medio (screen,  print, speech, all) and (condicion) {
+
+  nuevos estilos css o modificar un estilo anterior ya escrito
+} */
+
+/* dispositivos small sm */
+
+/* ------------------------------------------------------dispositivos small sm */
+
+@media all and (max-width: 767px) {
+
+
+}
